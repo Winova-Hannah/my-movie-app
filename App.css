@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #f5c518;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid #f5c518;
+}
+
+.navbar h1 {
+  color: #f5c518;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1::before {
+  content: "🎬 ";
+}
+
+.navbar nav a {
+  margin-left: 1.5rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.movie-card {
+  display: flex;
+  background-color: #1e1e1e;
+  border: 2px solid #f5c518;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.01);
+}
+
+.movie-card img {
+  width: 150px;
+  object-fit: cover;
+  height: auto;
+}
+
+.movie-details {
+  padding: 1rem;
+}
+
+.movie-title {
+  font-size: 1.5rem;
+  color: #f5c518;
+  margin-bottom: 0.5rem;
+}
+
+.movie-description {
+  color: #ccc;
+}
+
+button {
+  background-color: #f5c518;
+  color: #000;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #ffe170;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .movie-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-card img {
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

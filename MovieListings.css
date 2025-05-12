@@ -1,0 +1,104 @@
+/* MovieListings.css */
+
+.movie-listings-container {
+  padding: 2rem;
+  background-color: #0f0f0f;
+  min-height: 100vh;
+  color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #f5c518; /* IMDb yellow */
+  margin-bottom: 1rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filters input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #f5c518;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+.filters input:focus {
+  border-color: #ffffff;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.movie-card {
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 12px rgba(245, 197, 24, 0.15);
+}
+
+.movie-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.35);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f5c518;
+}
+
+.movie-card h3 {
+  font-size: 1.4rem;
+  color: #f5c518;
+  margin: 0.75rem 1rem 0.25rem;
+}
+
+.movie-card p {
+  font-size: 0.95rem;
+  padding: 0 1rem 1rem;
+  color: #ddd;
+}
+
+.movie-card a {
+  display: block;
+  margin: 0 1rem 1rem;
+  padding: 0.5rem;
+  background-color: #f5c518;
+  color: #0f0f0f;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.movie-card a:hover {
+  background-color: #e5b914;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}

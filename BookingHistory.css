@@ -1,0 +1,19 @@
+.booking-history {
+  padding: 2rem;
+}
+
+.booking-history h2 {
+  color: #FFD700;
+  margin-bottom: 1rem;
+}
+
+.booking-list {
+  list-style: none;
+}
+
+.booking-item {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #FFD700;
+}
