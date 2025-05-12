@@ -110,9 +110,6 @@ my-movie-app/
 
 Feel free to fork the repo and send pull requests if you have ideas for new features or improvements! All contributions are welcome.
 
-## License
-
-This is open-source, so feel free to use it, tweak it, and improve it however you want! (Just make sure to credit me if you use it in your projects.)
 
 ## Ideas for Cool Future Features
 
@@ -148,7 +145,7 @@ Now, this is where things get fun! I’ve got some ideas for cool stuff you can 
 
 ### 8. **Multi-Language Support**
 
-* The app could be made available in different languages to cater to more users. Maybe your friends in another country would like to use it too!
+* The app could be made available in different languages to cater to more users.
 
 ### 9. **Mobile App Version**
 
